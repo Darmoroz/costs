@@ -1,0 +1,10 @@
+.diagram {
+	display: flex;
+	justify-content: space-around;
+	height: 10rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 12px;
+	background-color: #3a6073;
+	/* background: linear-gradient(to top, #16222a, #3a6073); */
+}

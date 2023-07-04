@@ -1,0 +1,71 @@
+.new-cost {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70rem;
+	max-width: 95%;
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: #5691c8;
+	border-radius: 10px;
+	box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+}
+
+.new-cost button {
+	margin-right: 3px;
+	padding: 1rem 2rem;
+	font: inherit;
+	color: #fefae1;
+	cursor: pointer;
+	border: 1px solid #2a5b84;
+	background: #005c97;
+	border-radius: 10px;
+}
+
+.new-cost button:hover,
+.new-cost button:active {
+	transform: scale(1.05);
+}
+
+.new-cost__controls {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+/* .new-cost__control {
+	display: flex;
+} */
+
+.new-cost__control label {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+
+.new-cost__control input {
+	width: 20rem;
+	max-width: 100%;
+	margin-top: 8px;
+	padding: 0.5rem;
+	font: inherit;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.new-cost__actions {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	text-align: left;
+}
+
+.new-cost__actions>button {
+	height: 50px;
+	flex: 1
+}
